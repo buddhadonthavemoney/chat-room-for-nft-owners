@@ -5,7 +5,7 @@ from a simple console based app to iot devices everything can de developed using
 
 ![What is .NET](./Pictures/dotnet.png "what is dotnet")
 
-#### Ecosystem
+### Ecosystem
 Before .NET 6 there were multiple different flavours of dotnet. For example
 .NET framework was used to develop windows desktop apps, .NET Core is a newer
 open-source implementation and is cross-platform and finally Xamarin is the
@@ -44,7 +44,7 @@ dotnet cli is a part of the .NET SDK. It is a cross-platform toolchain for devel
 building, running and publishing .NET applications. In this project we use this cli
 to create the webapp, add dependencies, run the application and others. 
 
-###  Frameworks
+### Frameworks
 In this project we are going to use ASP.NET for developing the server side application.
 We use it to create API and create websocket endpoints for the users, so that
 they can communicate with each other in realtime. 
