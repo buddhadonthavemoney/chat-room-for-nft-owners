@@ -20,7 +20,7 @@ consists of:
  * CLI — Dotnet CLI
  * Libraries — Base class libraries and 3rd party available through Nuget
  
-#### Runtime
+### Runtime
 .NET is not just a C# based framework but a common language runtime where multiple
 different programming language can compile down to. C#, F# and Visual Basics are
 some of the popular languages that compile down to the CLR. The CLR is like 
@@ -38,13 +38,13 @@ possible because language compilers and tools that target the runtime use a
 common type system defined by the runtime. They follow the runtime's rules for
 defining new types and for creating, using, persisting, and binding to types. 
 
-#### CLI
+### CLI
 
 dotnet cli is a part of the .NET SDK. It is a cross-platform toolchain for developing,
 building, running and publishing .NET applications. In this project we use this cli
 to create the webapp, add dependencies, run the application and others. 
 
-####  Frameworks
+###  Frameworks
 In this project we are going to use ASP.NET for developing the server side application.
 We use it to create API and create websocket endpoints for the users, so that
 they can communicate with each other in realtime. 
