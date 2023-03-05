@@ -1,3 +1,19 @@
+# Table of contents
+- [Overview](#overview)
+    + [Ecosystem](#ecosystem)
+    + [Runtime](#runtime)
+    + [CLI](#cli)
+    + [Frameworks](#frameworks)
+- [Building the application](#building-the-application)
+    + [Installing the SDK](#installing-the-sdk)
+    + [Creating a and running the project](#creating-a-and-running-the-project)
+    + [Containerizing with docker](#containerizing-with-docker)
+      - [Dockerfile](#dockerfile)
+      - [Building the image](#building-the-image)
+      - [Starting the app](#starting-the-app)
+      - [Accessing the application](#accessing-the-application)
+
+
 # Overview
 .Net is a ecosystem of development. unlike other traditional frameworks it contains
 multiple frameworks within itself. .net is a platform for building almost anything. 
@@ -57,7 +73,7 @@ At 1st we should install the SDK and update the path. This process is platform
 dependent, the process to install the SDK is well documented
 [here](https://dotnet.microsoft.com/en-us/download)
 
-### Creating a and running the project
+### Creating and running the project
 
 ```bash
 dotnet new webapi -f net6.0
