@@ -1,4 +1,5 @@
 # Chat-room-for-nft-owners
+### * THIS PROJECT IS INCOMPLETE. This is just an idea and i chose this project to learn about docker, dotnet, and improve my skills with blockchain. I could only get upto docker. And the blockchain part is not implemented at all. I hope to continue the project in the near future*
 I want to implement most of the tech stacks I know in this project.
 The main objective of this project for me is to get
 familier with .NET and blockchain development (very different stacks), 
